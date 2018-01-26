@@ -1,0 +1,14 @@
+﻿确保机器上-g已经装了webpack。
+cnpm install -g webpack
+
+确保机器上-g已经装了json-server。
+cnpm install -g json-server
+
+装依赖：
+cnpm install
+
+然后开CMD窗口：
+webpack
+
+再开一个CMD窗口：
+npm run dev

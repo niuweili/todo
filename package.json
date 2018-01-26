@@ -1,0 +1,33 @@
+{
+  "name": "react_study",
+  "version": "1.0.0",
+  "description": "这是react的学习案例",
+  "main": "app.js",
+  "scripts": {
+    "dev": "json-server --watch db.json --static ./www"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "redux-devtools": "^3.4.1",
+    "redux-devtools-chart-monitor": "^1.6.1",
+    "redux-devtools-dock-monitor": "^1.1.2",
+    "redux-devtools-log-monitor": "^1.4.0",
+    "redux-logger": "^3.0.6"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "solarlunar": "^2.0.1"
+  }
+}
